@@ -1,0 +1,34 @@
+Question #1
+console.log("Hello World");
+
+Question #2
+let fname = "Clifford";
+let lname = "Charles";
+console.log( +laname + + fname + );
+
+Question #3
+let x = 5
+let y = 6
+
+Question #4
+ison = T lightsup = T
+if(ison && lightsup){
+console.log("working correctly")
+}
+
+Question #5
+let x = 2.5
+let y = 9.4
+ if (x > y){
+ console.log (x)}
+ else{
+ console.log (y)
+ }
+
+ Question #6
+ if (num is > - 50 && <= 50){
+ console.log (num)
+ }
+
+ Question #7
+ 

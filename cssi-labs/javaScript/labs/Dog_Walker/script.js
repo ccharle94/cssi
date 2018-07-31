@@ -16,13 +16,17 @@
 let dogName1 = "Steve";
 let dogType1 = "beagle";
 
-// Complete Task 1 Below
-
+console.log ("I will walk " + dogName1 + " today at 12:00pm");
 
 
 let dogName2 = "Joe";
-let dogType2 = "bulldog";
+let dogType2 = "Bulldog";
 
+if(dogType2 === "Corgi") {
+  console.log ("I will walk "+dogName2+ " today at 12:00pm");
+}
+else {console.log ("I will walk " + dogName2 + " today at 1:00pm");
+};
 // Complete Task 2 Below
 
 
@@ -30,4 +34,5 @@ let dogType2 = "bulldog";
 let dogName = "Lola";
 let dogType = "poodle";
 
+if (dogType ===-"Corgi"
 // Complete Task 3 Below
