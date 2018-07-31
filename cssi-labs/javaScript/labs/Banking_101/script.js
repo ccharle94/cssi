@@ -17,9 +17,10 @@ let balance;
 
 function openAccount(name){
   balance = 0;
+  customer_name = name;
   // Set the value for customer_name equal to name below
 
-  return //write the statment you need to return here
+  return name =" has opened a new account with a balance of " + balance//write the statment you need to return here
 }
 
 function deposit(value){

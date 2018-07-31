@@ -13,3 +13,24 @@
 // limitations under the License.
 
 console.log("script is running...");
+
+function My_Alarm (time){
+  console.log ("Hey,Clifford, wake up its " + time );
+}
+
+function Mom_Alarm (time){
+  console.log ("Hey, Mom, Wake up! It's " + time);
+}
+
+function Family_Alarm (person,time){
+   return "Hey " + person + ", wake up! it's " + time;
+}
+
+function Important_Alarm (impAlarm){
+  console.log (ImpAlarm.toUpperCase());
+}
+
+function Snooze_Alarm (snooze){
+  let num = snooze+1;
+  return "The alarm for "+ snooze + " has been changed to " + num;
+}
