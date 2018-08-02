@@ -13,3 +13,36 @@
 // limitations under the License.
 
 console.log("Running Click Events Script");
+
+let box1 = document.getElementById('box1');
+let box2 = document.getElementById('box2');
+let box3 = document.getElementById('box3');
+
+
+
+
+
+box1.addEventListener('click', boxColor1);
+box2.addEventListener('click', boxColor2);
+box3.addEventListener('click', boxColor3);
+
+function boxColor1()
+{
+document.getElementById("box1").style.backgroundColor = "red";
+document.getElementById("box2").style.backgroundColor = "red";
+document.getElementById("box3").style.backgroundColor = "red";
+}
+
+function boxColor2()
+{
+document.getElementById("box1").style.backgroundColor = "pink";
+document.getElementById("box2").style.backgroundColor = "pink";
+document.getElementById("box3").style.backgroundColor = "pink";
+}
+
+function boxColor3()
+{
+document.getElementById("box1").style.backgroundColor = "orange";
+document.getElementById("box2").style.backgroundColor = "orange";
+document.getElementById("box3").style.backgroundColor = "orange";
+}
