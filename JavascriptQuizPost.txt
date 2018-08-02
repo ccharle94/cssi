@@ -1,0 +1,23 @@
+Q#1
+console.log("I will suceed.");
+
+Q#2
+console.log(lname + fname)
+
+Q#3
+x = 3 y = 7
+ let tmp = x
+ let y = x
+ let x =y
+
+ Q#4
+
+ Q#5
+ if(x < y){console.log (x)
+ }
+ else{
+ console.log(y);}
+
+ Q#6
+ if (num < || > 10){console.log (True)}
+ 
