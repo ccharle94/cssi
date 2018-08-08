@@ -42,3 +42,27 @@ document.getElementById("box1").style.backgroundColor = "orange";
 document.getElementById("box2").style.backgroundColor = "orange";
 document.getElementById("box3").style.backgroundColor = "orange";
 }
+
+let box4 = document.getElementById('box4');
+let box5 = document.getElementById('box5');
+
+box4.addEventListener('click',toggleBox);
+box5.addEventListener('click',toggleBox);
+
+function toggleBox () {
+ box4.classList.toggle('active');
+ box5.classList.toggle('active');
+}
+// This is if you want to use a function
+// let box4 = document.querySelector('#box4');
+// let box5 = document.querySelector('#box5');
+
+// let id = ["box4","box5"];
+
+// function toggleBox(){
+  // box4.classList.toggle('active');
+  // box5.classList.toggle('active');
+// }
+
+// box4.addEventListener('click',toggleBox);
+// box5.addEventListener('click',toggleBox);
